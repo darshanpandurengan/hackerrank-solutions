@@ -7,6 +7,13 @@
 // Language    c
 // Status      Accepted
 // Submitted   2026-07-18, 11:47 a.m.
+// Technique   formatted-io-scan
+// Time        O(n)
+// Space       O(1)
+// Trick       The scanf format specifier %[^
+] reads input until a newline character is encountered, effectively capturing the entire line including spaces.
+// Hint        scanf format string %[^
+] requires manual newline consumption.
 // ──────────────────────────────────────────────────
 
 #include <stdio.h>
