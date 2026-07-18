@@ -7,6 +7,10 @@
 // Language    c
 // Status      Accepted
 // Submitted   2026-07-18, 04:49 p.m.
+// Technique   vla-summation-loop
+// Time        O(n)
+// Space       O(n)
+// Trick       The code uses a Variable Length Array (VLA) declared as int array[n] to store input values before calculating the sum via a for loop.
 // ──────────────────────────────────────────────────
 
 #include <stdio.h>
