@@ -7,6 +7,11 @@
 // Language    c
 // Status      Accepted
 // Submitted   2026-07-18, 04:27 p.m.
+// Technique   formatted-io-scan
+// Time        O(1)
+// Space       O(1)
+// Trick       The code uses scanf format specifiers %d and %f to parse mixed integer and floating-point inputs directly into typed variables.
+// Hint        scanf format strings must match input types exactly.
 // ──────────────────────────────────────────────────
 
 #include <stdio.h>
