@@ -7,6 +7,11 @@
 // Language    c
 // Status      Accepted
 // Submitted   2026-07-18, 04:43 p.m.
+// Technique   formatted-io-streams
+// Time        O(N)
+// Space       O(1)
+// Trick       The code uses fgets to capture the full sentence including spaces after scanf leaves a newline character in the buffer.
+// Hint        scanf %s stops at whitespace, unlike fgets.
 // ──────────────────────────────────────────────────
 
 #include <stdio.h>
