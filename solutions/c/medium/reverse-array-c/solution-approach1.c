@@ -7,6 +7,11 @@
 // Language    c
 // Status      Accepted
 // Submitted   2026-07-18, 04:42 p.m.
+// Technique   arithmetic-swap-in-place
+// Time        O(n)
+// Space       O(n)
+// Trick       The code performs an in-place swap using three consecutive arithmetic operations on arr[i] and arr[num - i - 1] to avoid a temporary variable.
+// Hint        Arithmetic swap fails if arr[i] and arr[num-i-1] refer to same memory.
 // ──────────────────────────────────────────────────
 
 #include <stdio.h>
