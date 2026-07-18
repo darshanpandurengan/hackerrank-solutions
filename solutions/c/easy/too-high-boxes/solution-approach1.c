@@ -7,6 +7,11 @@
 // Language    c
 // Status      Accepted
 // Submitted   2026-07-18, 04:44 p.m.
+// Technique   struct-member-access
+// Time        O(1)
+// Space       O(1)
+// Trick       The solution uses a ternary operator to compare the struct member b.height against the constant 41.
+// Hint        b.height is accessed directly without pointer dereferencing.
 // ──────────────────────────────────────────────────
 
 
