@@ -7,6 +7,11 @@
 // Language    c
 // Status      Accepted
 // Submitted   2026-07-18, 04:45 p.m.
+// Technique   naive-recursive-summation
+// Time        O(3^n)
+// Space       O(n)
+// Trick       The function uses direct recursion to sum the three preceding terms, which is exponentially slower than iterative dynamic programming.
+// Hint        find_nth_term causes stack overflow for large n.
 // ──────────────────────────────────────────────────
 
 #include <stdio.h>
