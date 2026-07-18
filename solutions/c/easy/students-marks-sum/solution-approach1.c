@@ -7,6 +7,11 @@
 // Language    c
 // Status      Accepted
 // Submitted   2026-07-18, 04:46 p.m.
+// Technique   strided-array-iteration
+// Time        O(n)
+// Space       O(1)
+// Trick       The code uses a ternary operator to set the loop starting index to 0 or 1, then increments by 2 to skip unwanted gender entries.
+// Hint        The ternary operator logic assumes gender is strictly 'g' or 'b'.
 // ──────────────────────────────────────────────────
 
 
