@@ -7,6 +7,11 @@
 // Language    c
 // Status      Accepted
 // Submitted   2026-07-18, 04:48 p.m.
+// Technique   if-else-ladder
+// Time        O(1)
+// Space       O(1)
+// Trick       The implementation uses a standard if-else ladder to map integer values to string literals via the printf function.
+// Hint        strtol endptr check is essential for robust input parsing.
 // ──────────────────────────────────────────────────
 
 #include <assert.h>
