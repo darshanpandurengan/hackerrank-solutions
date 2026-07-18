@@ -7,6 +7,10 @@
 // Language    c
 // Status      Accepted
 // Submitted   2026-07-18, 04:40 p.m.
+// Technique   pointer-dereference-arithmetic
+// Time        O(1)
+// Space       O(1)
+// Trick       The code uses the ternary operator to calculate the absolute difference between dereferenced pointers *a and *b without using math.h.
 // ──────────────────────────────────────────────────
 
 #include <stdio.h>
