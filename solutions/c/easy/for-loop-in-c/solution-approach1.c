@@ -7,6 +7,11 @@
 // Language    c
 // Status      Accepted
 // Submitted   2026-07-18, 04:52 p.m.
+// Technique   switch-case-conditional
+// Time        O(N)
+// Space       O(1)
+// Trick       The code uses a switch statement to map integers 1-9 to string literals and an if-else block for parity checks.
+// Hint        switch cases require break to prevent fall-through logic errors.
 // ──────────────────────────────────────────────────
 
 #include <stdio.h>
