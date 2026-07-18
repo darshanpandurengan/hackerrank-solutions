@@ -7,6 +7,11 @@
 // Language    c
 // Status      Accepted
 // Submitted   2026-07-18, 04:54 p.m.
+// Technique   modulo-division-loop
+// Time        O(log n)
+// Space       O(1)
+// Trick       The code uses the modulo operator % 10 to extract the last digit and integer division / 10 to truncate the number iteratively.
+// Hint        scanf requires the address-of operator & for integer variables.
 // ──────────────────────────────────────────────────
 
 #include <stdio.h>
