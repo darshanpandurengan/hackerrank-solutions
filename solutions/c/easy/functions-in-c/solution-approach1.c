@@ -7,6 +7,11 @@
 // Language    c
 // Status      Accepted
 // Submitted   2026-07-18, 04:53 p.m.
+// Technique   nested-ternary-comparison
+// Time        O(1)
+// Space       O(1)
+// Trick       The implementation uses the ternary operator ? : to perform pairwise comparisons to determine the maximum value among four integers.
+// Hint        scanf requires address-of operator & for integer arguments.
 // ──────────────────────────────────────────────────
 
 #include <stdio.h>
