@@ -7,6 +7,10 @@
 # Language    pypy3
 # Status      Accepted
 # Submitted   2026-07-20, 10:18 a.m.
+# Technique   boolean-logic-evaluation
+# Time        O(1)
+# Space       O(1)
+# Trick       The function uses a single boolean expression with modulo operators to evaluate leap year conditions in one return statement.
 # ──────────────────────────────────────────────────
 
 def is_leap(year):
