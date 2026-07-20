@@ -7,6 +7,11 @@
 # Language    pypy3
 # Status      Accepted
 # Submitted   2026-07-20, 10:10 a.m.
+# Technique   set-add-loop
+# Time        O(N)
+# Space       O(N)
+# Trick       The set.add() method automatically handles deduplication, ensuring only unique country names are stored in the set s.
+# Hint        input() reads entire lines including trailing whitespace.
 # ──────────────────────────────────────────────────
 
 # Enter your code here. Read input from STDIN. Print output to STDOUT
