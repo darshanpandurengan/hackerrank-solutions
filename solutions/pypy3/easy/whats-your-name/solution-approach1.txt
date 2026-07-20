@@ -7,6 +7,11 @@
 # Language    pypy3
 # Status      Accepted
 # Submitted   2026-07-20, 10:05 a.m.
+# Technique   f-string-formatting
+# Time        O(N+M)
+# Space       O(N+M)
+# Trick       The f-string literal embeds the first and last variables directly into the string template for efficient concatenation.
+# Hint        f-strings require Python 3.6+ syntax.
 # ──────────────────────────────────────────────────
 
 #
