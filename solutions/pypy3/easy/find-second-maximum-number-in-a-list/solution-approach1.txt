@@ -7,6 +7,11 @@
 # Language    pypy3
 # Status      Accepted
 # Submitted   2026-07-20, 10:12 a.m.
+# Technique   set-sort-indexing
+# Time        O(N log N)
+# Space       O(N)
+# Trick       The set() constructor removes duplicates, allowing the second-to-last index [-2] of the sorted list to represent the runner-up score.
+# Hint        set() is unordered; sorting is required before indexing.
 # ──────────────────────────────────────────────────
 
 if __name__ == '__main__':
