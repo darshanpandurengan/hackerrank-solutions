@@ -7,6 +7,12 @@
 // Language    c
 // Status      Accepted
 // Submitted   2026-08-08, 11:40 a.m.
+// Technique   linear-accumulation-loop
+// Time        O(n)
+// Space       O(1)
+// Insight     The function maintains a running total by iterating through the array exactly once from index zero to ar_count minus one.
+// Interview   Before: "I would use a recursive approach to sum the array." After: "An iterative approach is more efficient here, providing O(n) time complexity and O(1) auxiliary space, which is optimal for processing the array elements sequentially as required by the problem constraints."
+// Pitfalls    (1) Integer overflow may occur if the sum of array elements exceeds the maximum value representable by a signed 32-bit integer.  (2) The loop condition i < ar_count correctly processes all elements, but using i <= ar_count would cause an out-of-bounds memory access.
 // ──────────────────────────────────────────────────
 
 #include <assert.h>
