@@ -7,6 +7,12 @@
 // Language    c
 // Status      Accepted
 // Submitted   2026-08-08, 06:06 p.m.
+// Technique   arithmetic-summation
+// Time        O(1)
+// Space       O(1)
+// Insight     The function computes the sum of two integers by applying the addition operator directly to the provided input parameters.
+// Interview   Before: "How would you implement a function to add two integers?" After: "The implementation uses the addition operator to return the sum in O(1) time, ensuring the result is computed efficiently for any valid integer inputs a and b."
+// Pitfalls    (1) Integer overflow may occur if the sum of a and b exceeds the maximum value representable by the int data type.
 // ──────────────────────────────────────────────────
 
 #include <stdio.h>
