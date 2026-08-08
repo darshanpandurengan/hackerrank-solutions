@@ -7,6 +7,12 @@
 // Language    c
 // Status      Accepted
 // Submitted   2026-08-08, 11:49 a.m.
+// Technique   linear-scan-counter
+// Time        O(n)
+// Space       O(n)
+// Insight     The implementation maintains three separate counters to track the frequency of positive, negative, and zero values during a single linear pass over the input array.
+// Interview   Before: "I would use three variables to count occurrences and then divide by the total count." After: "I implemented a linear scan with O(n) time complexity, ensuring each ratio is calculated using double-precision floating-point division to meet the required six-decimal precision output."
+// Pitfalls    (1) Performing integer division instead of casting to double, which truncates the ratio to zero.  (2) Failing to format the output to exactly six decimal places as required by the problem statement.  (3) Assuming the array size n is always positive without considering potential constraints on input size.
 // ──────────────────────────────────────────────────
 
 #include <assert.h>
